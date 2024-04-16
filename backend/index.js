@@ -26,6 +26,9 @@ app.use(express.json());
 // app.use("/uploads", express.static("uploads"));
 
 app.use("/api/auth", auth);
+app.use("/",(req,res)=>{
+  res.send("This is Compare Craze website")
+})
 
 app.use("/api/user", user);
 
