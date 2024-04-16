@@ -14,7 +14,12 @@ connectToMongo();
 
 const app = express();
 
-app.use(cors());
+const ORIGINSITE = process.env.ORIGINSITE || '*';
+const corsOptions ={
+   origin:ORIGINSITE
+}
+
+app.use(cors(corsOptions));
 app.use(express.json());
 // app.use(express.static("public"));
 // app.use(express.urlencoded({ extended: true }));
