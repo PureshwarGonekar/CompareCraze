@@ -2,10 +2,6 @@ const connectToMongo = require("./db");
 const express = require("express");
 const http = require("http");
 const cors = require("cors");
-const User = require("./models/User");
-const jwt = require("jsonwebtoken");
-const TOKEN_SECRET = "enclave";
-
 const auth = require("./routes/auth");
 const user = require("./routes/user");
 const PORT = process.env.PORT || 5000;
