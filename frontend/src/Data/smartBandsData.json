@@ -1,5 +1,6 @@
 [
   {
+  "id": 1,
   "brand": "M4",
   "model": "M4 Bluetooth Fitness Smart Band",
   "price": "Rs. 999",
@@ -53,6 +54,7 @@
 },
     
 {
+  "id": 2,
   "brand": "Samsung",
   "model": "Galaxy Fit 2",
   "price": "₹4,999",
@@ -105,6 +107,7 @@
   }
 },
 {
+  "id": 3,
   "brand": "Xiaomi",
   "model": "Mi Smart Band 6",
   "price": "₹2,488",
@@ -157,6 +160,7 @@
   }
 },
 {
+  "id": 4,
   "brand": "Garmin",
   "model": "Vivosmart 4",
   "price": "₹2099",
@@ -209,6 +213,7 @@
   }
 },
 {
+  "id": 5,
   "brand": "Apple",
   "model": "Watch Series 7",
   "price": "₹10,799",
@@ -261,6 +266,7 @@
   }
 },
 {
+  "id": 6,
   "brand": "Huawei",
   "model": "Band 6",
   "price": "₹2,199",
@@ -313,6 +319,7 @@
   }
 },
 {
+  "id": 7,
   "brand": "Amazfit",
   "model": "Band 5",
   "price": "$39.99",
@@ -365,6 +372,7 @@
   }
 },
 {
+  "id": 8,
   "brand": "OnePlus",
   "model": "Band",
   "price": "$34.99",
@@ -417,6 +425,7 @@
   }
 },
 {
+  "id": 9,
   "brand": "Sony",
   "model": "SmartBand 2",
   "price": "₹7,410",
@@ -469,6 +478,7 @@
   }
 },
 {
+  "id": 10,
   "brand": "Polar",
   "model": "A370",
   "price": "₹959",
@@ -521,6 +531,7 @@
   }
 },
 {
+  "id": 11,
   "brand": "Withings",
   "model": "ScanWatch",
   "price": "₹2,199",
@@ -573,6 +584,7 @@
   }
 },
 {
+  "id": 12,
   "brand": "TomTom",
   "model": "Touch",
   "price": "₹806",
@@ -625,6 +637,7 @@
   }
 },
 {
+  "id": 13,
   "brand": "Garmin",
   "model": "Vivosport",
   "price": "₹799",
@@ -677,6 +690,7 @@
   }
 },
 {
+  "id": 14,
   "brand": "Polar",
   "model": "A300",
   "price": "₹799",
@@ -729,6 +743,7 @@
   }
 },
 {
+  "id": 15,
   "brand": "Fossil",
   "model": "Sport",
   "price": "₹455",
@@ -781,6 +796,7 @@
   }
 },
 {
+  "id": 16,
   "brand": "Suunto",
   "model": "3 Fitness",
   "price": "₹395",
@@ -833,6 +849,7 @@
   }
 },
 {
+  "id": 17,
   "brand": "Timex",
   "model": "Fitness Tracker",
   "price": "$49.95",
@@ -885,6 +902,7 @@
   }
 },
 {
+  "id": 18,
   "brand": "Nokia",
   "model": "Go",
   "price": "₹2,609",
@@ -936,6 +954,7 @@
   }
 },
 {
+  "id": 19,
   "brand": "Fitbit",
   "model": "Charge 5",
   "price": "$179.95",

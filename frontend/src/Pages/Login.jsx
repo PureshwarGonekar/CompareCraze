@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useContext} from "react";
 import { TEInput, TERipple } from "tw-elements-react";
 
 import { Input } from "@material-tailwind/react";
@@ -7,6 +7,7 @@ import { loginUser } from '../controllers/backendRoutes';
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
+const base = process.env.REACT_APP_BASE;
 export default function Login(){
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -41,6 +42,7 @@ export default function Login(){
           localStorage.setItem("userId", json.userId);
           localStorage.setItem("userName", json.userName);
           localStorage.setItem("fullName", json.fullName);
+          localStorage.setItem("imageUrl", json.imageUrl? base+'/'+ json.imageUrl: "");
           console.log("navigate")
           navigate("/mainpage");
         } else {

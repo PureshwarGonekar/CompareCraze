@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "brand": "NIKON",
     "model": "P950",
     "price": "₹61,990",
@@ -63,9 +64,11 @@
       "service_type": "Walk In For Service",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 2,
     "brand": "Canon",
     "model": "EOS Rebel T7",
     "price": "₹30099",
@@ -119,9 +122,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 3,
     "brand": "Sony",
     "model": "Alpha a6400",
     "price": "₹80099",
@@ -175,9 +180,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 4,
     "brand": "Fujifilm",
     "model": "X-T4",
     "price": "₹100699",
@@ -231,9 +238,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 5,
     "brand": "Nikon",
     "model": "D5600",
     "price": "₹60096",
@@ -287,9 +296,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 6,
     "brand": "Sony",
     "model": "Cyber-Shot DSC-RX100 VII",
     "price": "₹100,298",
@@ -343,9 +354,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 7,
     "brand": "Panasonic",
     "model": "LUMIX DC-ZS70K",
     "price": "₹92,990",
@@ -399,9 +412,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 8,
     "brand": "Olympus",
     "model": "OM-D E-M10 Mark IV",
     "price": "₹60099",
@@ -455,9 +470,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 9,
     "brand": "Leica",
     "model": "D-Lux 7",
     "price": "₹100,195",
@@ -511,9 +528,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 10,
     "brand": "Pentax",
     "model": "K-70",
     "price": "₹66,699",
@@ -567,9 +586,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 11,
     "brand": "Ricoh",
     "model": "GR III",
     "price": "₹80,096",
@@ -623,9 +644,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 12,
     "brand": "GoPro",
     "model": "HERO9 Black",
     "price": "₹30,049",
@@ -679,9 +702,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 13,
     "brand": "DJI",
     "model": "Mavic Air 2",
     "price": "₹70099",
@@ -735,9 +760,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 14,
     "brand": "YI",
     "model": "M1",
     "price": "₹80,099",

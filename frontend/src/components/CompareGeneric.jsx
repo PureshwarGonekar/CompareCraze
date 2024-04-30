@@ -14,7 +14,9 @@ const formatKey = (key) => {
 
 const CompareGeneric = ({ CompareData }) => {
 
-    const keys = Object.keys(CompareData[0]).filter(key => key !== 'imageUrl');
+    console.log("cCompareGeneric",CompareData)
+
+    const keys = Object.keys(CompareData[0]).filter(key => key !== 'imageUrl' &&  key !== 'id');
     
     const isObject = (value) => {
       return typeof value === 'object' && value !== null && !Array.isArray(value);
@@ -58,7 +60,18 @@ const CompareGeneric = ({ CompareData }) => {
                                                         {Object.keys(item[key]).map((nestedKey, i) => (
                                                             <tr key={i}>
                                                                 <td className='font-bold'>{formatKey(nestedKey)}</td>
-                                                                <td>{item[key][nestedKey]}</td>
+                                                                {/* Render the nested object's values */}
+                                                                <td>
+                                                                    {isObject(item[key][nestedKey]) ? (
+                                                                        // Render nested object as an array of strings
+                                                                        Object.entries(item[key][nestedKey]).map(([subKey, subValue]) => (
+                                                                            <p key={subKey}>{formatKey(subKey)}: {subValue}</p>
+                                                                        ))
+                                                                    ) : (
+                                                                        // Render non-object values directly
+                                                                        item[key][nestedKey]
+                                                                    )}
+                                                                </td>
                                                             </tr>
                                                         ))}
                                                     </MDBTableBody>

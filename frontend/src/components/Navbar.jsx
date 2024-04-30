@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+import { getUserDetails } from "../controllers/backendRoutes";
 import {
   Navbar,
   Collapse,
@@ -26,11 +27,19 @@ import {
   Bars2Icon,
 } from "@heroicons/react/24/solid";
 import { useNavigate } from "react-router-dom";
- 
+import CottageIcon from '@mui/icons-material/Cottage';
+import CompareIcon from '@mui/icons-material/Compare';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ReviewsIcon from '@mui/icons-material/Reviews';
+import { useLocation } from "react-router-dom";
+
+const base = process.env.REACT_APP_BASE;
+
 export default function StickyNavbar() {
   const [openNav, setOpenNav] = React.useState(false);
 
   const navigate = useNavigate();
+  const location = useLocation();
 
   const handleLoginClick = () => {
     // Redirect to login route
@@ -58,59 +67,35 @@ export default function StickyNavbar() {
       () => window.innerWidth >= 960 && setOpenNav(false),
     );
   }, []);
+
+  const navLinks = [
+    { path: "/", label: "Home", icon: CottageIcon },
+    { path: "/mainpage", label: "Compare", icon: CompareIcon },
+    { path: "/wishlist", label: "Wishlist", icon: FavoriteIcon },
+    { path: "/reviews", label: "Reviews", icon: ReviewsIcon }
+  ];
+  const currentPath = location.pathname;
+
+  const isCurrentPage = (path) => {
+    return currentPath === path;
+  };
  
   const navList = (
-    <ul className="mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 ">
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="/"  className="flex items-center lg:font-bold text-xl text-gray-800">
-          Home
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="/mainpage"  className="flex items-center lg:font-bold text-xl text-gray-800">
-          Compare
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center lg:font-bold text-xl text-gray-800">
-          Wishlist
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center lg:font-bold text-xl text-gray-800">
-          Blocks
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center lg:font-bold text-xl text-gray-800">
-          Docs
-        </a>
-      </Typography>
+    <ul className="mt-2 flex flex-col gap-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 ">
+      {navLinks.map(({ path, label, icon: Icon }, index) => (
+          <Typography
+            key={index}
+            as="li"
+            variant="small"
+            color="blue-gray"
+            className={`p-1 font-normal ${isCurrentPage(path) ? ' border-b-2 border-blue-100 text-[#3b71ca]' : ''}`}
+          >
+            <a href={path} className={`flex items-center lg:font-bold text-xl text-gray-800 ${isCurrentPage(path) ? ' text-[#3b71ca]' : ''} `}>
+              <Icon className="mr-1" />
+              {label}
+            </a>
+          </Typography>
+        ))}
     </ul>
   );
 
@@ -137,9 +122,54 @@ export default function StickyNavbar() {
     },
   ];
   function ProfileMenu() {
+    const [profilepic, setProfilepic] = useState(null);
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   
     const closeMenu = () => setIsMenuOpen(false);
+    const handleMenuItemClick = (label) => {
+      if (label === "Sign Out") {
+        logout();
+      } else {
+        // Redirect to respective pages based on menu item label
+        switch (label) {
+          case "My Profile":
+            navigate("/myprofile");
+            break;
+          case "Edit Profile":
+            navigate("/editprofile");
+            break;
+          case "Inbox":
+            navigate("/inbox");
+            break;
+          case "Help":
+            navigate("/help");
+            break;
+          default:
+            break;
+        }
+      }
+      closeMenu();
+    };
+    useEffect(()=>{
+      const id= localStorage.getItem("userId");
+      getUserDetails(id).then((resp)=>{
+        // console.log("myprofileroute",resp)
+        if(resp.message==="ok"){
+            if(resp.userData.imageUrl!=""){
+                setProfilepic(base+'/'+ resp.userData.imageUrl)
+            }
+        }
+      })
+    },[])
+
+    useEffect(()=>{
+      const image= localStorage.getItem("imageUrl");
+      if(image){
+        setProfilepic(image)
+      }
+      
+    })
+
   
     return (
       <Menu open={isMenuOpen} handler={setIsMenuOpen} placement="bottom-end">
@@ -154,7 +184,7 @@ export default function StickyNavbar() {
               size="sm"
               alt="tania andrew"
               className="border border-gray-900 p-0.5"
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+              src={ profilepic || "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"}
             />
             <ChevronDownIcon
               strokeWidth={2.5}
@@ -165,35 +195,34 @@ export default function StickyNavbar() {
           </Button>
         </MenuHandler>
         <MenuList className="p-1">
-          {profileMenuItems.map(({ label, icon }, key) => {
-            const isLastItem = key === profileMenuItems.length - 1;
-            return (
-              <MenuItem
-                key={label}
-                onClick={closeMenu}
-                className={`flex items-center gap-2 rounded ${
-                  isLastItem
-                    ? "hover:bg-red-500/10 focus:bg-red-500/10 active:bg-red-500/10"
-                    : ""
-                }`}
+        {profileMenuItems.map(({ label, icon }, key) => {
+          const isLastItem = key === profileMenuItems.length - 1;
+          return (
+            <MenuItem
+              key={label}
+              onClick={() => handleMenuItemClick(label)}
+              className={`flex items-center gap-2 rounded ${
+                isLastItem
+                  ? "hover:bg-red-500/10 focus:bg-red-500/10 active:bg-red-500/10"
+                  : ""
+              }`}
+            >
+              {React.createElement(icon, {
+                className: `h-4 w-4 ${isLastItem ? "text-red-500" : ""}`,
+                strokeWidth: 2,
+              })}
+              <Typography
+                as="span"
+                variant="small"
+                className="font-normal"
+                color={isLastItem ? "red" : "inherit"}
               >
-                {React.createElement(icon, {
-                  className: `h-4 w-4 ${isLastItem ? "text-red-500" : ""}`,
-                  strokeWidth: 2,
-                })}
-                <Typography
-                  as="span"
-                  variant="small"
-                  className="font-normal"
-                  color={isLastItem ? "red" : "inherit"}
-                  onClick={isLastItem ? ()=>logout() : ()=>{}}
-                >
-                  {label}
-                </Typography>
-              </MenuItem>
-            );
-          })}
-        </MenuList>
+                {label}
+              </Typography>
+            </MenuItem>
+          );
+        })}
+      </MenuList>
       </Menu>
     );
   }

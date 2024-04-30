@@ -1,37 +1,63 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect,createContext} from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./Pages/Login.jsx";
 import Signup from "./Pages/Signup.jsx";
 import Home from "./Pages/Home.jsx";
 import MainPage from "./Pages/MainPage.jsx";
+import MyProfile from "./Pages/MyProfile.jsx";
+import EditProfile from "./Pages/EditProfile.jsx";
+import CircularProgress from '@mui/material/CircularProgress';
+import Help from "./Pages/Help.jsx";
+import Inbox from "./Pages/Inbox.jsx";
+import WishList from "./Pages/WishList.jsx";
+import Review from "./Pages/Review.jsx";
+
+export const MainContext = createContext();
 
 function App() {
-  const [isAuth, setIsAuth] = useState(false);
-
-  // Check if user is authenticated
-  useEffect(() => {
-    const token = localStorage.getItem('token');
-    if (token) {
-      setIsAuth(true);
-      // console.log("if token")
-    } else {
-      setIsAuth(false);
-      // console.log("if no token");
-    }
-  });
+  const [isLoading, setIsLoading] = useState(false);
+  const toggleLoading = (value) => {
+    setIsLoading(value);
+  };
+  const [userprofilepic, setUserprofilepic]=useState(null)
+  // Get user data upon component mount
+  const [userData, setUserData] = useState({
+      userId:'',
+      userName:'',
+      fullName: '',
+      email: '',
+      password: '',
+      contact: '',
+      DOB: '',
+      address: '',
+    });
   return (
-      <div className="main-app">
+    <MainContext.Provider value={{ isLoading, toggleLoading, userData, setUserData, userprofilepic,setUserprofilepic }}>
+
+      <div className={`main-app ${
+          isLoading ? 'opacity-50 ' : '' }`}>
         <Router>
           <Routes>
-            {isAuth &&  (
-              <Route exact path="/mainpage" element={<MainPage />} />
-            )}
+            <Route exact path="/mainpage" element={<MainPage />} />
             <Route exact path="/" element={<Home />} />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/signup" element={<Signup />} />
+            <Route exact path="/myprofile" element={<MyProfile />} />
+            <Route exact path="/editprofile" element={<EditProfile />} />
+            <Route exact path="/inbox" element={<Inbox />} />
+            <Route exact path="/help" element={<Help />} />
+            <Route exact path="/wishlist" element={<WishList />} />
+            <Route exact path="/reviews" element={<Review />} />
+
           </Routes>
         </Router>
       </div>
+      {isLoading && (
+        <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <CircularProgress /> 
+        </div>
+      )}
+    </MainContext.Provider>
   );
 }
 

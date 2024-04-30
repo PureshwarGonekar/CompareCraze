@@ -43,7 +43,7 @@ const Home = () => {
             <div className="col-md-6">
               <h2 className="text-2xl font-semibold mb-4">Compare Mobile Phones</h2>
               <p>Compare the latest smartphones from top brands like Apple, Samsung, Google, and more. Find the best features, specifications, and prices.</p>
-              <Link to="/mobiles" className="btn btn-primary mt-4">View Mobiles</Link>
+              <Link to="/mainpage" className="btn btn-primary mt-4">View Mobiles</Link>
             </div>
             <div className="col-md-6 flex justify-end items-end">
               {/* Insert image carousel or grid of mobile phones */}
@@ -64,7 +64,7 @@ const Home = () => {
             <div className="col-md-6">
               <h2 className="text-2xl font-semibold mb-4">Compare Laptops</h2>
               <p>Find the perfect laptop for your needs, whether it's for work, gaming, or entertainment. Compare specifications, performance, and prices.</p>
-              <Link to="/laptops" className="btn btn-primary mt-4">View Laptops</Link>
+              <Link to="/mainpage" className="btn btn-primary mt-4">View Laptops</Link>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ const Home = () => {
             <div className="col-md-6">
               <h2 className="text-2xl font-semibold mb-4">Compare TVs</h2>
               <p>Discover the best televisions for your home entertainment setup. Compare screen sizes, resolutions, smart features, and more.</p>
-              <Link to="/tvs" className="btn btn-primary mt-4">View TVs</Link>
+              <Link to="/mainpage" className="btn btn-primary mt-4">View TVs</Link>
             </div>
             <div className="col-md-6  flex justify-end items-end">
               {/* Insert image carousel or grid of TVs */}
@@ -98,7 +98,7 @@ const Home = () => {
             <div className="col-md-6">
               <h2 className="text-2xl font-semibold mb-4">Compare Smartwatches</h2>
               <p>Stay connected and track your fitness with the latest smartwatches. Compare features such as heart rate monitoring, battery life, and compatibility.</p>
-              <Link to="/smartwatches" className="btn btn-primary mt-4">View Smartwatches</Link>
+              <Link to="/mainpage" className="btn btn-primary mt-4">View Smartwatches</Link>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ const Home = () => {
             <div className="col-md-6">
               <h2 className="text-2xl font-semibold mb-4">Compare Gaming Consoles</h2>
               <p>Explore the latest gaming consoles from Sony, Microsoft, and Nintendo. Compare performance, exclusive games, and online features.</p>
-              <Link to="/gaming-consoles" className="btn btn-primary mt-4">View Gaming Consoles</Link>
+              <Link to="/mainpage" className="btn btn-primary mt-4">View Gaming Consoles</Link>
             </div>
             <div className="col-md-6 flex justify-end items-end">
               {/* Insert image carousel or grid of gaming consoles */}
@@ -179,8 +179,8 @@ const Home = () => {
             <div className="info">
               <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Kristin Doe" className="rounded-full w-32 mx-auto" />
               <div className="text-center mt-4">
-                <h4 className="text-xl font-semibold">Pavitra Jain</h4>
-                <h5 className="text-gray-600">0201CS201005</h5>
+                <h4 className="text-xl font-semibold">Naman Nema</h4>
+                <h5 className="text-gray-600">0201CS2010</h5>
                 {/* Social media links */}
                 <div className="flex justify-center mt-4 space-x-4">
                   <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-twitter"></i></a>

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "brand": "Noise",
     "model": "Crew 1.38\" Display with Bluetooth Calling",
     "price": "₹3,499",
@@ -64,6 +65,7 @@
     }
   },
   {
+    "id": 2,
     "brand": "Noise",
     "model": "Fit Pro 3",
     "price": "₹2,999",
@@ -128,6 +130,7 @@
     }
   },
   {
+    "id": 3,
     "brand": "Boat",
     "model": "Storm",
     "price": "₹2,799",
@@ -192,6 +195,7 @@
     }
   },
   {
+    "id": 4,
     "brand": "Samsung",
     "model": "Galaxy Watch Active 2",
     "price": "₹14,999",
@@ -256,6 +260,7 @@
     }
   },
   {
+    "id": 5,
     "brand": "Realme",
     "model": "Watch S",
     "price": "₹4,999",
@@ -320,6 +325,7 @@
     }
   },
   {
+    "id": 6,
     "brand": "Huawei",
     "model": "Watch GT 2",
     "price": "₹12,990",
@@ -384,6 +390,7 @@
     }
   },
   {
+    "id": 7,
     "brand": "Amazfit",
     "model": "GTS 2 Mini",
     "price": "₹6,999",
@@ -448,6 +455,7 @@
     }
   },
   {
+    "id": 8,
     "brand": "OnePlus",
     "model": "Watch 2",
     "price": "₹14,999",
@@ -512,6 +520,7 @@
     }
   },
   {
+    "id": 9,
     "brand": "Mi",
     "model": "Watch Revolve Active",
     "price": "₹9,999",
@@ -576,6 +585,7 @@
     }
   },
   {
+    "id": 10,
     "brand": "Fossil",
     "model": "Gen 6",
     "price": "₹21,995",
@@ -640,6 +650,7 @@
     }
   },
   {
+    "id": 11,
     "brand": "Fitbit",
     "model": "Versa 3",
     "price": "₹18,999",
@@ -704,6 +715,7 @@
     }
   },
   {
+    "id": 12,
     "brand": "Garmin",
     "model": "Vivoactive 4",
     "price": "₹28,990",
@@ -768,6 +780,7 @@
     }
   },
   {
+    "id": 13,
     "brand": "Apple",
     "model": "Watch Series 7",
     "price": "₹54,999",
@@ -832,6 +845,7 @@
     }
   },
   {
+    "id": 14,
     "brand": "TicWatch",
     "model": "Pro 3 Ultra GPS",
     "price": "₹35,999",

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "brand": "OnePlus",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/x/t/k/-original-imag43fz8bd4hg3d.jpeg?q=70&crop=false",
     "model": "Nord CE 4",
@@ -105,6 +106,7 @@
     "read_review": "-"
   },
   {
+    "id": 2,
     "brand": "Vivo",
     "model": "V30 Pro",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/8/t/d/v30-pro-5g-v2319-vivo-original-imagyzhhdeezbbfb.jpeg?q=70&crop=false",
@@ -205,6 +207,7 @@
   },
 
   {
+    "id": 3,
     "brand": "Samsung",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/k/h/-original-imagzm8qmr7qxfhq.jpeg?q=70&crop=false",
     "model": "Galaxy S30 Ultra",
@@ -311,6 +314,7 @@
     "read_review": "-"
   },
   {
+    "id": 4,
     "brand": "Apple",
     "model": "iPhone 16 Pro Max",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/6/x/j/-original-imaghxejqvpwfqh2.jpeg?q=70&crop=false",
@@ -413,6 +417,7 @@
     "read_review": "-"
   },
   {
+    "id": 5,
     "brand": "Xiaomi",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/j8bxvgw0-1/mobile/g/j/z/mi-mi-mix-2-na-original-imaeydgnjzmvxwfz.jpeg?q=70&crop=false",
     "model": "Mi Mix 7",
@@ -519,6 +524,7 @@
   },
 
   {
+    "id": 6,
     "brand": "Google",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/0/q/-original-imagtwh6ehjjzqhu.jpeg?q=70&crop=false",
     "model": "Pixel 8",
@@ -622,6 +628,7 @@
     "read_review": "-"
   },
   {
+    "id": 7,
     "brand": "Sony",
     "model": "Xperia 2 Pro",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/jmgmmq80/mobile/x/m/y/realme-2-pro-rmx1801-original-imaf9cu2przq9g8z.jpeg?q=70&crop=false",
@@ -728,6 +735,7 @@
     "read_review": "-"
   },
   {
+    "id": 8,
     "brand": "Samsung",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/z/p/-original-imaggj68yffchuwx.jpeg?q=70&crop=false",
     "model": "Galaxy S22 Ultra",
@@ -834,6 +842,7 @@
     "read_review": "-"
   },
   {
+    "id": 9,
     "brand": "Huawei",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/7/y/u/-original-imagqmtfu8gt62yv.jpeg?q=70&crop=false",
     "model": "P50 Pro",
@@ -940,6 +949,7 @@
     "read_review": "-"
   },
   {
+    "id": 10,
     "brand": "Xiaomi",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/1/1/s/-original-imagwu89jy5ems28.jpeg?q=70&crop=false",
     "model": "Mi 12 Pro",
@@ -1046,6 +1056,7 @@
     "read_review": "-"
   },
   {
+    "id": 11,
     "brand": "Apple",
     "model": "iPhone 15 Pro",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/q/d/-original-imagtc4hzawdcp4g.jpeg?q=70&crop=false",
@@ -1149,6 +1160,7 @@
     "read_review": "-"
   },
   {
+    "id": 12,
     "brand": "Motorola",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/5/c/r/-original-imagx24ftn9fyuam.jpeg?q=70&crop=false",
     "model": "Edge 40",
@@ -1255,6 +1267,7 @@
     "read_review": "-"
   },
   {
+    "id": 13,
     "brand": "Nokia",
     "model": "X40",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/a/f/g42-5g-ta-1586-nokia-original-imagunrqsdh8ghvv.jpeg?q=70&crop=false",
@@ -1361,6 +1374,7 @@
     "read_review": "-"
   },
   {
+    "id": 14,
     "brand": "Sony",
     "model": "Xperia 5 Mark III",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/mobile/t/a/t/panasonic-eluga-mark-2-eb-90s55em2-original-imaez7yzqaywhphv.jpeg?q=70&crop=false",
@@ -1467,6 +1481,7 @@
     "read_review": "-"
   },
   {
+    "id": 15,
     "brand": "Google",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/p/s/-original-imaggsuemmztbghp.jpeg?q=70&crop=false",
     "model": "Pixel 7 Pro",
@@ -1570,6 +1585,7 @@
     "read_review": "-"
   },
   {
+    "id": 16,
     "brand": "OnePlus",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/j/q/-original-imagkgshx9kfayxq.jpeg?q=70&crop=false",
     "model": "10 Pro",

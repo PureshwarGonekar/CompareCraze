@@ -20,13 +20,14 @@ app.use(express.json());
 // app.use(express.static("public"));
 // app.use(express.urlencoded({ extended: true }));
 // app.use("/uploads", express.static("uploads"));
+app.use('/profilePic', express.static('profilePic'))
 
 app.use("/api/auth", auth);
+app.use("/api/user", user);
 app.use("/",(req,res)=>{
   res.send("This is Compare Craze website")
 })
 
-app.use("/api/user", user);
 
 const server = http.createServer(app);
 

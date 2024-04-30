@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "brand": "LG",
     "modal": "32LM5",
     "price": "₹30,990",
@@ -75,6 +76,7 @@
     }
   },
   {
+    "id": 2,
     "brand": "Samsung",
     "modal": "UA43TE50FAKXXL",
     "price": "₹30,990",
@@ -151,6 +153,7 @@
     
   },
   {
+    "id": 3,
     "brand": "Sony",
     "modal": "KDL-43W6603",
     "price": "₹35,990",
@@ -228,6 +231,7 @@
     
   },
   {
+    "id": 4,
     "brand": "Mi",
     "modal": "L40M6-EI",
     "price": "₹19,999",
@@ -304,6 +308,7 @@
     
   },
   {
+    "id": 5,
     "brand": "TCL",
     "modal": "40S6500FS",
     "price": "₹13,490",
@@ -381,6 +386,7 @@
     
   },
   {
+    "id": 6,
     "brand": "LG",
     "modal": "43LM5670PTC",
     "price": "₹32,990",
@@ -457,6 +463,7 @@
     
   },
   {
+    "id": 7,
     "brand": "OnePlus",
     "modal": "43Q1IN-1",
     "price": "₹29,999",
@@ -534,6 +541,7 @@
     
   },
   {
+    "id": 8,
     "brand": "Panasonic",
     "modal": "TH-40HS550DX",
     "price": "₹42,990",
@@ -610,6 +618,7 @@
     
   },
   {
+    "id": 9,
     "brand": "Hisense",
     "modal": "40A56E",
     "price": "₹30,990",
@@ -686,6 +695,7 @@
     
   },
   {
+    "id": 10,
     "brand": "Vu",
     "modal": "40US",
     "price": "₹29,999",

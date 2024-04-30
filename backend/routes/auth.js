@@ -37,8 +37,10 @@ router.post("/signup", async (req, res) => {
     res.json({
       success: true,
       authtoken,
+      userId: user._id,
       userName: user.userName,
       fullName: user.fullName,
+      imageUrl: user.imageUrl
     });
 
 
@@ -71,6 +73,7 @@ router.post("/login", async (req, res) => {
       userId: user._id,
       userName: user.userName,
       fullName: user.fullName,
+      imageUrl: user.imageUrl
     });
   } catch (error) {
     res.status(400).json({ message: error.message });

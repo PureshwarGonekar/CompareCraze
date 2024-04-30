@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "brand": "Sony",
     "model": "PlayStation 5",
     "price": "₹44,990",
@@ -48,9 +49,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 2,
     "brand": "Microsoft",
     "model": "Xbox Series X",
     "price": "₹60,990",
@@ -99,9 +102,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 3,
     "brand": "Nintendo",
     "model": "Nintendo Switch",
     "price": "₹60,990",
@@ -149,9 +154,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 4,
     "brand": "Sony",
     "model": "PlayStation 4 Pro",
     "price": "₹30,900",
@@ -196,9 +203,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 5,
     "brand": "Microsoft",
     "model": "Xbox One X",
     "price": "₹2,990",
@@ -243,9 +252,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 6,
     "brand": "Nintendo",
     "model": "Nintendo Switch Lite",
     "price": "₹29,990",
@@ -293,9 +304,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 7,
     "brand": "Sony",
     "model": "PlayStation 4 Slim",
     "price": "₹32,990",
@@ -340,9 +353,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 8,
     "brand": "Microsoft",
     "model": "Xbox One S",
     "price": "₹50,990",
@@ -387,9 +402,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 9,
     "brand": "Nintendo",
     "model": "Nintendo 3DS XL",
     "price": "₹19,000",
@@ -436,9 +453,11 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   },
   {
+    "id": 10,
     "brand": "Sony",
     "model": "PlayStation Vita",
     "price": "₹31,240",
@@ -485,6 +504,7 @@
       "service_type": "Carry In",
       "covered_in_warranty": "Manufacturing Defects",
       "not_covered_in_warranty": "Physical Damages"
-    }
+    },
+    "rating": "5"
   }
 ]

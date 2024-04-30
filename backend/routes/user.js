@@ -3,12 +3,10 @@ const router = express.Router();
 const User = require("../models/User");
 const formidable = require("formidable");
 const fs = require("fs");
+const bcrypt = require("bcryptjs");
+const multer = require('multer');
+const path = require('path');
 
-// router.post("/fetchNotifications", async (req, res) => {
-//   const userId = req.body.userId;
-//   const user = await User.findById(userId);
-//   res.status(200).json({ notifications: user.notifications });
-// });
 
 router.post("/fetchUserData", async (req, res) => {
   const userId = req.body.userId;
@@ -16,61 +14,70 @@ router.post("/fetchUserData", async (req, res) => {
   res.status(200).json({ user: user });
 });
 
-router.get("/fetchUserData", async (req, res) => {
-  const user = await User.find();
-  res.status(200).json({ user: user });
+router.get("/getUserDetails/:id", async (req, res) => {
+  const user_id = req.params.id;
+  try {
+    const user = await User.findById(user_id).select('-password'); 
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+    res.status(200).json({ userData: user, message: "ok" });
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "error", error: "Internal Server Error" });
+  }
 });
 
+router.patch('/updateuser/:id', async (req, res) => {
+  console.log("here its ",req.body)
+    try {
+        const user_id = req.params.id;
+        const {fullName, password, contact, DOB, address, email} = req.body;
+        console.log("editbody",req.body);
 
-// router.post("/addPost", async (req, res) => {
-//   try {
-//     let form = new formidable.IncomingForm();
-//     form.keepExtensions = true;
+        const salt = await bcrypt.genSalt(10);
+        const hashedPassword = await bcrypt.hash(password, salt);
 
-//     form.parse(req, async (err, fields, files) => {
-//       const { caption, userId } = fields;
+        const updateUser = await User.findOneAndUpdate({_id:user_id}, { fullName, password:hashedPassword, contact, DOB, address, email }, { upsert: true })
+        if (updateUser.nModified === 0) {
+            return res.status(404).json({ error: "User Details failed to update!" });
+        }
+        return res.status(201).json({ updateUser, message: "ok" });
+    } catch (e) {
+        return res.status(500).json({ message: e.message });
+    }
+})
 
-//       const post = await Post.create({
-//         uploadedBy: userId[0],
-//         caption: caption[0],
-//       });
 
-//       if (files?.image?.[0]) {
-//         post.image.data = fs.readFileSync(files.image?.[0].filepath);
-//         post.image.contentType = files.image?.[0].mimetype;
-//       }
+//lost and found
+const storage = multer.diskStorage({
+  destination: 'profilePic/', 
+  filename: function (req, file, cb) {
+    cb(null,Date.now() + path.extname(file.originalname));
+  },
+});
+const upload = multer({ storage: storage });
 
-//       await post.save();
-//       res.status(200).json({ msg: "OK" });
-//     });
-//   } catch (err) {
-//     console.log(err);
-//   }
-// });
+router.post('/imageUpload/:userId', upload.single('userImg'), async (req, res) => {
+  const {userId} = req.params;
+  try {
 
-// router.get("/posts/:userId", async (req, res) => {
-//   try {
-//     const userId = req.params.userId;
+    const imageUrl = req.file.path;
+    const imgName = req.file.originalname;
 
-//     const posts = await Post.find({ uploadedBy: userId });
-//     res.json(posts);
-//   } catch (err) {
-//     console.error(err);
-//     res.status(500).json({ error: "Internal Server Error" });
-//   }
-// });
+    const updateUser = await User.findOneAndUpdate({_id:userId}, { imageUrl: imageUrl}, { upsert: true })
 
-// router.get("/post/photo/:id", async (req, res) => {
-//   try {
-//     const id = req.params.id;
-//     const post = await Post.findById(id);
-//     if (post) {
-//       res.set("Content-Type", post.image.contentType);
-//       res.send(post.image.data);
-//     }
-//   } catch (err) {
-//     console.log(err);
-//   }
-// });
+    if(updateUser){
+      res.status(201).json({ message: "ok", imageUrl:imageUrl});
+    }
+    else{
+      res.status(500).json({ message: 'Failed To upload' });
+    }
+
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: 'Internal Server Error' });
+  }
+});
 
 module.exports = router;

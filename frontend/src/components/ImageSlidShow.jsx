@@ -3,8 +3,6 @@ import 'devextreme/dist/css/dx.light.css';
  
 import { Gallery } from 'devextreme-react/gallery';
 
-
-
 const ImageSlidShow = ({dataSource}) => {
   return (
     <div className='w-[190px]'>

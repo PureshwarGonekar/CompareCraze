@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "brand": "ASUS",
     "price": "₹60,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/3/6/j/-original-imagpxgqfz7djerv.jpeg?q=70&crop=false",
@@ -62,6 +63,7 @@
   },
 
   {
+    "id": 2,
     "brand": "Dell",
     "price": "₹1,88,499",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/q/i/w/xps-13-thin-and-light-laptop-dell-original-imagpm3cqsu7k7ca.jpeg?q=70&crop=false",
@@ -123,6 +125,7 @@
     }
   },
   {
+    "id": 3,
     "brand": "HP",
     "price": "₹1,13,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/r/y/n/x360-bf0059tu-thin-and-light-laptop-hp-original-imagh4z7h3f56xxj.jpeg?q=70&crop=false",
@@ -184,6 +187,7 @@
     }
   },
   {
+    "id": 4,
     "brand": "Lenovo",
     "price": "₹89,190",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/a/m/v/-original-imagtzy85bkygxrz.jpeg?q=70&crop=false",
@@ -245,6 +249,7 @@
     }
   },
   {
+    "id": 5,
     "brand": "Apple",
     "price": "₹2,18,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/kuyf8nk0/computer/c/8/u/mkgp3hn-a-thin-and-light-laptop-apple-original-imag7yznc5d2rsuh.jpeg?q=70&crop=false",
@@ -306,6 +311,7 @@
     }
   },
   {
+    "id": 6,
     "brand": "Microsoft",
     "price": "₹1,72,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/j/i/t/rbg-00048-thin-and-light-laptop-microsoft-original-imagtyx7dzgeb77c.jpeg?q=70&crop=false",
@@ -367,6 +373,7 @@
     }
   },
   {
+    "id": 5,
     "brand": "Acer",
     "description": "Acer Aspire 7 (2023) AMD Ryzen 9 6000 Series 6900H - (32 GB/1 TB SSD/Windows 11 Home) Aspire 7 A715-42G NH.QA2SI.001 Laptop (15.6 Inch, Charcoal Black, 2.15 Kg)",
     "price": "₹57,990",
@@ -426,6 +433,7 @@
     }
   },
   {
+    "id": 8,
     "brand": "Samsung",
     "price": "₹1,53,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/j/v/d/-original-imagqtrgjwhsafpa.jpeg?q=70&crop=false",
@@ -487,6 +495,7 @@
     }
   },
   {
+    "id": 9,
     "brand": "MSI",
     "price": "₹3,89,990",
     "description": "MSI GS76 Stealth (2023) Intel Core i9 12th Gen 12980HK - (64 GB/2 TB SSD/Windows 11 Pro) GS76 Stealth 11UH-244 Laptop (17.3 Inch, Core Black, 2.7 Kg)",
@@ -547,6 +556,7 @@
     }
   },
   {
+    "id": 10,
     "brand": "Razer",
     "price": "₹2,84,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/8/b/w/-original-imagz42t6kzzjrcx.jpeg?q=70&crop=false",
@@ -608,6 +618,7 @@
     }
   },
   {
+    "id": 11,
     "brand": "Alienware",
     "price": "₹2,37,890",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/k/h/r/-original-imagz77t4hh8v4fw.jpeg?q=70&crop=false",
@@ -669,6 +680,7 @@
     }
   },
   {
+    "id": 12,
     "brand": "Gigabyte",
     "price": "₹1,64,990",
     "description": "Gigabyte AERO 15 OLED (2023) Intel Core i7 13th Gen 12750H - (32 GB/512 GB SSD/Windows 11 Pro) AERO 15 OLED SA-7US5130SH Laptop (15.6 Inch, Black, 2.1 Kg, With MS Office)",
@@ -729,6 +741,7 @@
     }
   },
   {
+    "id": 13,
     "brand": "Asus",
     "price": "₹2,84,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/8/b/w/-original-imagz42t6kzzjrcx.jpeg?q=70&crop=false",
@@ -790,6 +803,7 @@
     }
   },
   {
+    "id": 14,
     "brand": "HP",
     "price": "₹79,490",
     "description": "HP Pavilion Aero 13 (2023) AMD Ryzen 7 6000 Series 6800U - (16 GB/1 TB SSD/Windows 11 Home) Pavilion Aero 13 Laptop (13.3 Inch, Natural Silver, 0.97 Kg, With MS Office)",
@@ -850,6 +864,7 @@
     }
   },
   {
+    "id": 15,
     "brand": "Dell",
     "price": "₹1,35,000",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/e/w/z/-original-imagzfwf9ncawufs.jpeg?q=70&crop=false",
@@ -911,6 +926,7 @@
     }
   },
   {
+    "id": 16,
     "brand": "Lenovo",
     "price": "₹70,499",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/3/9/q/-original-imagzzf9vhvjuzfw.jpeg?q=70&crop=false",
@@ -972,6 +988,7 @@
     }
   },
   {
+    "id": 17,
     "brand": "LG",
     "price": "₹82,990",
     "description": "LG Gram 17 (2023) Intel Core i7 12th Gen 12700H - (16 GB/1 TB SSD/Windows 11 Pro) 17Z90Q-GR76K Laptop (17 Inch, Dark Silver, 1.35 Kg, With MS Office)",
@@ -1032,6 +1049,7 @@
     }
   },
   {
+    "id": 18,
     "brand": "HP",
     "price": "₹1,32,490",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/q/5/o/15-fe0014tx-laptop-hp-original-imagrdpf8degshy8.jpeg?q=70&crop=false",
@@ -1093,6 +1111,7 @@
     }
   },
   {
+    "id": 19,
     "brand": "Acer",
     "price": "₹48,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/e/d/w/-original-imagu3kwas7j6g6a.jpeg?q=70&crop=false",
@@ -1154,6 +1173,7 @@
     }
   },
   {
+    "id": 20,
     "brand": "MSI",
     "price": "₹54,990",
     "description": "MSI GF65 Thin (2023) Intel Core i7 12th Gen 12700H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics) 10UE-091IN Gaming Laptop (15.6 Inch, Black, 1.86 Kg)",
@@ -1214,6 +1234,7 @@
     }
   },
   {
+    "id": 21,
     "brand": "Dell",
     "price": "₹52,200",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/9/g/9/inspiron-3520-laptop-dell-original-imagtegwwhwk9ghn.jpeg?q=70&crop=false",
@@ -1275,6 +1296,7 @@
     }
   },
   {
+    "id": 21,
     "brand": "Lenovo",
     "price": "₹69,345",
     "description": "Lenovo ThinkPad E14 Gen 4 (2023) Intel Core i3 13th Gen 1335G4 - (8 GB/256 GB SSD/Windows 11 Pro) 82V300C4IN Laptop (14 Inch, Black, 1.5 Kg, With MS Office)",
@@ -1335,6 +1357,7 @@
     }
   },
   {
+    "id": 23,
     "brand": "Apple",
     "price": "₹76,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/kp5sya80/screen-guard/tempered-glass/o/v/n/apple-macbook-air-m1-13-3-inch-lightwings-original-imag3gh5xftgbpg3.jpeg?q=70&crop=false",
@@ -1396,6 +1419,7 @@
     }
   },
   {
+    "id": 24,
     "brand": "Samsung",
     "price": "₹1,69,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/j/v/d/-original-imagqtrgjwhsafpa.jpeg?q=70&crop=false",
@@ -1457,6 +1481,7 @@
     }
   },
   {
+    "id": 25,
     "brand": "Huawei",
     "price": "₹75,999",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/r/r/x/-original-imagykgqmdz3rczq.jpeg?q=70&crop=false",
@@ -1518,6 +1543,7 @@
     }
   },
   {
+    "id": 26,
     "brand": "LG",
     "price": "₹1,12,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/x/r/d/-original-imagp7w2wgf5ense.jpeg?q=70&crop=false",
@@ -1579,6 +1605,7 @@
     }
   },
   {
+    "id": 27,
     "brand": "Razer",
     "price": "₹50,990",
     "imageUrl": "https://m.media-amazon.com/images/I/41XOx683L9L._SX300_SY300_QL70_FMwebp_.jpg",
@@ -1640,6 +1667,7 @@
     }
   },
   {
+    "id": 28,
     "brand": "Xiaomi",
     "price": "₹80,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/3/d/d/vostro-3520-laptop-dell-original-imagrzyeggvexpky.jpeg?q=70&crop=false",

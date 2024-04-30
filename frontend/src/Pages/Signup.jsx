@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
 import { Input } from "@material-tailwind/react";
 import { useNavigate } from "react-router-dom";
 import { createUser } from '../controllers/backendRoutes';
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
+const base = process.env.REACT_APP_BASE;
 export default function Signup() {
   const navigate = useNavigate();
 
@@ -65,6 +66,7 @@ export default function Signup() {
           localStorage.setItem("userId", json.userId);
           localStorage.setItem("userName", json.userName);
           localStorage.setItem("fullName", json.fullName);
+          localStorage.setItem("imageUrl", json.imageUrl? base+'/'+ json.imageUrl: "");
           // toast.success('🦄 Account Created Successfully!', {
           //   position: "top-right",
           //   autoClose: 5000,

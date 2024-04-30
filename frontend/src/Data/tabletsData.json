@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "brand": "Samsung",
     "model": "Galaxy Tab S7",
     "price": "₹44,999",
@@ -52,6 +53,7 @@
     }
   },
   {
+    "id": 2,
     "brand": "Apple",
     "model": "iPad Air (2020)",
     "price": "₹54,900",
@@ -103,6 +105,7 @@
     }
   },
   {
+    "id": 3,
     "brand": "Lenovo",
     "model": "Tab P11 Pro",
     "price": "₹39,999",
@@ -154,6 +157,7 @@
     }
   },
   {
+    "id": 4,
     "brand": "Samsung",
     "model": "Galaxy Tab A7",
     "price": "₹21,999",
@@ -205,6 +209,7 @@
     }
   },
   {
+    "id": 5,
     "brand": "Huawei",
     "model": "MatePad 11",
     "price": "₹42,999",
@@ -256,6 +261,7 @@
     }
   },
   {
+    "id": 6,
     "brand": "Amazon",
     "model": "Fire HD 10",
     "price": "₹12,999",
@@ -307,6 +313,7 @@
     }
   },
   {
+    "id": 7,
     "brand": "Xiaomi",
     "model": "Mi Pad 5",
     "price": "₹34,999",

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "brand": "Boat",
     "model": "Rockerz 450",
     "price": "₹ 1,499",
@@ -35,6 +36,7 @@
     }
   },
   {
+    "id": 2,
     "brand": "Sony",
     "model": "WH-CH510",
     "price": "₹ 3,999",
@@ -70,6 +72,7 @@
     }
   },
   {
+    "id": 3,
     "brand": "JBL",
     "model": "T460BT",
     "price": "₹ 2,999",
@@ -105,6 +108,7 @@
     }
   },
   {
+    "id": 4,
     "brand": "Bose",
     "model": "SoundLink II",
     "price": "₹ 21,038",
@@ -140,6 +144,7 @@
     }
   },
   {
+    "id": 5,
     "brand": "Sennheiser",
     "model": "HD 450BT",
     "price": "₹ 14,990",
@@ -175,6 +180,7 @@
     }
   },
   {
+    "id": 6,
     "brand": "OnePlus",
     "model": "Buds Z",
     "price": "₹ 2,999",
@@ -210,6 +216,7 @@
     }
   },
   {
+    "id": 7,
     "brand": "Bose",
     "model": "QuietComfort 35 II",
     "price": "₹ 29,363",
@@ -245,6 +252,7 @@
     }
   },
   {
+    "id": 8,
     "brand": "Sony",
     "model": "WH-XB900N",
     "price": "₹ 14,990",
@@ -280,6 +288,7 @@
     }
   },
   {
+    "id": 9,
     "brand": "Sennheiser",
     "model": "HD 350BT",
     "price": "₹ 7,490",
@@ -315,6 +324,7 @@
     }
   },
   {
+    "id": 10,
     "brand": "JBL",
     "model": "Tune 500BT",
     "price": "₹ 2,999",
