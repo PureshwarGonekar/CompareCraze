@@ -28,7 +28,7 @@ export function CarouselWithContent() {
               specifications, and features of the latest smartphones from top
               brands.
             </Typography>
-            <Button size="lg" color="white">
+            <Button size="lg" color="white" href="/mainpage">
               Explore Mobile Phones
             </Button>
           </div>
