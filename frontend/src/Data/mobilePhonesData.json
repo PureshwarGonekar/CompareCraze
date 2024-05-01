@@ -2,6 +2,7 @@
   {
     "id": 1,
     "brand": "OnePlus",
+    "price": "₹15,499",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/x/t/k/-original-imag43fz8bd4hg3d.jpeg?q=70&crop=false",
     "model": "Nord CE 4",
     "release_date": "April 1, 2024",
@@ -103,11 +104,12 @@
       "os": "Android 14",
       "resolution": "1080x2412 pixels"
     },
-    "read_review": "-"
+    "read_review": "4.5"
   },
   {
     "id": 2,
     "brand": "Vivo",
+    "price": "₹20,499",
     "model": "V30 Pro",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/8/t/d/v30-pro-5g-v2319-vivo-original-imagyzhhdeezbbfb.jpeg?q=70&crop=false",
     "release_date": "February 28, 2024",
@@ -203,12 +205,13 @@
       "os": "Android 14",
       "resolution": "2800x1260 pixels"
     },
-    "read_review": "-"
+    "read_review": "3.5"
   },
 
   {
     "id": 3,
     "brand": "Samsung",
+    "price": "₹19,499",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/k/h/-original-imagzm8qmr7qxfhq.jpeg?q=70&crop=false",
     "model": "Galaxy S30 Ultra",
     "release_date": "May 15, 2024",
@@ -311,11 +314,12 @@
       "os": "Android 14",
       "resolution": "1440x3200 pixels"
     },
-    "read_review": "-"
+    "read_review": "4.5"
   },
   {
     "id": 4,
     "brand": "Apple",
+    "price": "₹20,499",
     "model": "iPhone 16 Pro Max",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/6/x/j/-original-imaghxejqvpwfqh2.jpeg?q=70&crop=false",
     "release_date": "September 20, 2024",
@@ -414,11 +418,12 @@
       "os": "iOS 18",
       "resolution": "1284x2778 pixels"
     },
-    "read_review": "-"
+    "read_review": "4.5"
   },
   {
     "id": 5,
     "brand": "Xiaomi",
+    "price": "₹25,499",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/j8bxvgw0-1/mobile/g/j/z/mi-mi-mix-2-na-original-imaeydgnjzmvxwfz.jpeg?q=70&crop=false",
     "model": "Mi Mix 7",
     "release_date": "June 10, 2024",
@@ -520,12 +525,13 @@
       "os": "MIUI 16",
       "resolution": "1440x3200 pixels"
     },
-    "read_review": "-"
+    "read_review": "4.5"
   },
 
   {
     "id": 6,
     "brand": "Google",
+    "price": "₹21,499",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/0/q/-original-imagtwh6ehjjzqhu.jpeg?q=70&crop=false",
     "model": "Pixel 8",
     "release_date": "July 5, 2024",
@@ -625,11 +631,12 @@
       "os": "Android 14",
       "resolution": "1080x2400 pixels"
     },
-    "read_review": "-"
+    "read_review": "4.5"
   },
   {
     "id": 7,
     "brand": "Sony",
+    "price": "₹25,499",
     "model": "Xperia 2 Pro",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/jmgmmq80/mobile/x/m/y/realme-2-pro-rmx1801-original-imaf9cu2przq9g8z.jpeg?q=70&crop=false",
     "release_date": "August 20, 2024",
@@ -732,11 +739,12 @@
       "os": "Android 14",
       "resolution": "1644x3840 pixels"
     },
-    "read_review": "-"
+    "read_review": "4"
   },
   {
     "id": 8,
     "brand": "Samsung",
+    "price": "₹15,999",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/z/p/-original-imaggj68yffchuwx.jpeg?q=70&crop=false",
     "model": "Galaxy S22 Ultra",
     "release_date": "September 15, 2024",
@@ -839,11 +847,12 @@
       "os": "Android 14",
       "resolution": "1440x3200 pixels"
     },
-    "read_review": "-"
+    "read_review": "3.5"
   },
   {
     "id": 9,
     "brand": "Huawei",
+    "price": "₹11,499",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/7/y/u/-original-imagqmtfu8gt62yv.jpeg?q=70&crop=false",
     "model": "P50 Pro",
     "release_date": "October 10, 2024",
@@ -946,11 +955,12 @@
       "os": "HarmonyOS 3.0",
       "resolution": "1080x2340 pixels"
     },
-    "read_review": "-"
+    "read_review": "4"
   },
   {
     "id": 10,
     "brand": "Xiaomi",
+    "price": "₹25,990",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/1/1/s/-original-imagwu89jy5ems28.jpeg?q=70&crop=false",
     "model": "Mi 12 Pro",
     "release_date": "November 25, 2024",
@@ -1053,11 +1063,12 @@
       "os": "Android 14",
       "resolution": "1440x3200 pixels"
     },
-    "read_review": "-"
+    "read_review": "3"
   },
   {
     "id": 11,
     "brand": "Apple",
+    "price": "₹1,15,499",
     "model": "iPhone 15 Pro",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/q/d/-original-imagtc4hzawdcp4g.jpeg?q=70&crop=false",
     "release_date": "December 10, 2024",
@@ -1157,11 +1168,12 @@
       "os": "iOS 16",
       "resolution": "1170x2532 pixels"
     },
-    "read_review": "-"
+    "read_review": "4.5"
   },
   {
     "id": 12,
     "brand": "Motorola",
+    "price": "₹65,499",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/5/c/r/-original-imagx24ftn9fyuam.jpeg?q=70&crop=false",
     "model": "Edge 40",
     "release_date": "January 15, 2025",
@@ -1264,11 +1276,12 @@
       "os": "Android 14",
       "resolution": "1080x2400 pixels"
     },
-    "read_review": "-"
+    "read_review": "4"
   },
   {
     "id": 13,
     "brand": "Nokia",
+    "price": "₹45,499",
     "model": "X40",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/a/f/g42-5g-ta-1586-nokia-original-imagunrqsdh8ghvv.jpeg?q=70&crop=false",
     "release_date": "February 28, 2025",
@@ -1371,11 +1384,12 @@
       "os": "Android 14",
       "resolution": "1080x2400 pixels"
     },
-    "read_review": "-"
+    "read_review": "3.5"
   },
   {
     "id": 14,
     "brand": "Sony",
+    "price": "₹26,499",
     "model": "Xperia 5 Mark III",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/mobile/t/a/t/panasonic-eluga-mark-2-eb-90s55em2-original-imaez7yzqaywhphv.jpeg?q=70&crop=false",
     "release_date": "March 20, 2025",
@@ -1478,11 +1492,12 @@
       "os": "Android 14",
       "resolution": "1080x2520 pixels"
     },
-    "read_review": "-"
+    "read_review": "4"
   },
   {
     "id": 15,
     "brand": "Google",
+    "price": "₹44,499",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/b/p/s/-original-imaggsuemmztbghp.jpeg?q=70&crop=false",
     "model": "Pixel 7 Pro",
     "release_date": "April 10, 2025",
@@ -1582,11 +1597,12 @@
       "os": "Android 15",
       "resolution": "1440x3120 pixels"
     },
-    "read_review": "-"
+    "read_review": "3.5"
   },
   {
     "id": 16,
     "brand": "OnePlus",
+    "price": "₹35,499",
     "imageUrl": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/j/q/-original-imagkgshx9kfayxq.jpeg?q=70&crop=false",
     "model": "10 Pro",
     "release_date": "May 5, 2025",
@@ -1686,6 +1702,6 @@
       "os": "OxygenOS 17",
       "resolution": "1080x2400 pixels"
     },
-    "read_review": "-"
+    "read_review": "4.5"
   }
 ]

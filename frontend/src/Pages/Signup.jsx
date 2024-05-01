@@ -76,7 +76,7 @@ export default function Signup() {
           //   theme: "colored",
           // });
           alert('🦄 Account Created Successfully!')
-          navigate("/mainpage");
+          navigate("/");
         } else {
           toast.error(json.message, {
             position: "top-right",

@@ -88,9 +88,9 @@ export default function StickyNavbar() {
             as="li"
             variant="small"
             color="blue-gray"
-            className={`p-1 font-normal ${isCurrentPage(path) ? ' border-b-2 border-blue-100 text-[#3b71ca]' : ''}`}
+            className={`p-1 font-normal ${isCurrentPage(path) ? ' border-b-2 border-[#3b71ca]' : ''}`}
           >
-            <a href={path} className={`flex items-center lg:font-bold text-xl text-gray-800 ${isCurrentPage(path) ? ' text-[#3b71ca]' : ''} `}>
+            <a href={path} className={`flex items-center lg:font-bold text-xl ${isCurrentPage(path) ? ' text-[#3b71ca]' : 'text-gray-800 '} `}>
               <Icon className="mr-1" />
               {label}
             </a>

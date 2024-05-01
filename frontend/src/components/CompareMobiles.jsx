@@ -38,6 +38,14 @@ const CompareMobiles = ({ CompareData }) => {
         </MDBTableHead>
         <MDBTableBody>
           <tr>
+            <th scope="row" className=' text-lg'>Price </th>
+            {CompareData.map((data)=>(
+              <td>
+                <p className='text-center'>{data.price}</p>
+              </td>
+            ))}
+          </tr>
+          <tr>
             <th scope="row" className=' text-lg'>Release date </th>
             {CompareData.map((data)=>(
               <td>

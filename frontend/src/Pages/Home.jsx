@@ -165,6 +165,21 @@ const Home = () => {
             <div className="info">
               <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Kristin Doe" className="rounded-full w-32 mx-auto" />
               <div className="text-center mt-4">
+                <h4 className="text-xl font-semibold">Naman Nema</h4>
+                <h5 className="text-gray-600">0201CS201043</h5>
+                {/* Social media links */}
+                <div className="flex justify-center mt-4 space-x-4">
+                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-twitter"></i></a>
+                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-facebook"></i></a>
+                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-linkedin"></i></a>
+                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-google-plus"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div className="info">
+              <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Kristin Doe" className="rounded-full w-32 mx-auto" />
+              <div className="text-center mt-4">
                 <h4 className="text-xl font-semibold">Nikhil Bharti</h4>
                 <h5 className="text-gray-600">0201CS201045</h5>
                 {/* Social media links */}
@@ -176,20 +191,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="info">
-              <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Kristin Doe" className="rounded-full w-32 mx-auto" />
-              <div className="text-center mt-4">
-                <h4 className="text-xl font-semibold">Naman Nema</h4>
-                <h5 className="text-gray-600">0201CS2010</h5>
-                {/* Social media links */}
-                <div className="flex justify-center mt-4 space-x-4">
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-twitter"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-facebook"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-linkedin"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-google-plus"></i></a>
-                </div>
-              </div>
-            </div>
+            
             <div className="info">
               <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Kristin Doe" className="rounded-full w-32 mx-auto" />
               <div className="text-center mt-4">

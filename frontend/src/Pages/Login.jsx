@@ -44,7 +44,7 @@ export default function Login(){
           localStorage.setItem("fullName", json.fullName);
           localStorage.setItem("imageUrl", json.imageUrl? base+'/'+ json.imageUrl: "");
           console.log("navigate")
-          navigate("/mainpage");
+          navigate("/");
         } else {
           toast.error(json.message, {
             position: "top-right",

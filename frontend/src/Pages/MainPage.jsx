@@ -182,7 +182,7 @@ const MainPage = () => {
 
           <div>
             {compare && value==0 && 
-              <CompareMobiles CompareData={selectedOptions.filter((option) => option !== null)} />
+              <CompareGeneric CompareData={selectedOptions.filter((option) => option !== null)} />
             }
             {compare && value==1 && 
               <CompareLaptops CompareData={selectedOptions.filter((option) => option !== null)} />
