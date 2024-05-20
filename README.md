@@ -1,3 +1,4 @@
+# Compare Craze | [Live](https://compare-craze.vercel.app/)
 Welcome to **Compare Craze**, your go-to platform for comparing specifications of various electronic gadgets such as mobile phones, laptops, TVs, smart watches, headphones, smart bands, and gaming consoles.
 
 ## Table of Contents
@@ -22,8 +23,8 @@ Welcome to **Compare Craze**, your go-to platform for comparing specifications o
 - Users must register or log in to access the website's features.
 - Secure authentication using JSON Web Tokens (JWT).
 
-![Screenshot (367)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/e90d8f64-9448-4166-8b1d-1dfd18cfe272)
 ![Screenshot (366)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/938f8adb-7ee1-42a1-a132-b0ad07d47c65)
+![Screenshot (367)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/e90d8f64-9448-4166-8b1d-1dfd18cfe272)
 
 
 ### Home Page
@@ -31,10 +32,10 @@ Welcome to **Compare Craze**, your go-to platform for comparing specifications o
 - Slideshow sections for each category: mobile phones, laptops, watches, etc.
 - Includes Testimonial, Subscribe, and Contact sections.
 
+![Screenshot (368)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/7778a18b-7415-4862-921c-8c85ad77cea0)
 ![Screenshot (369)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/b1034f50-e285-479d-ba82-e3877ca4873b)
 ![Screenshot (370)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/0c56a011-2d77-4eae-9ee0-f77845787bfb)
 ![Screenshot (371)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/a41e5d91-869c-4909-b136-1d5d3f0a029c)
-![Screenshot (368)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/7778a18b-7415-4862-921c-8c85ad77cea0)
 
 
 ### Compare Page
@@ -42,10 +43,10 @@ Welcome to **Compare Craze**, your go-to platform for comparing specifications o
 - Users can select up to four gadgets for comparison.
 - Each comparison includes a wishlist button for saving preferred items.
 
-![Screenshot (375)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/fbf37ff7-bb02-43ce-8ae7-b37ba172dc4d)
 ![Screenshot (372)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/60ae770b-33b3-4f70-af53-f687b84fe9c2)
 ![Screenshot (373)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/c7d98f42-b85c-4a4a-84ed-13615626d74e)
 ![Screenshot (374)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/b459545d-df23-44f4-87c0-c67eeef0ba7e)
+![Screenshot (375)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/fbf37ff7-bb02-43ce-8ae7-b37ba172dc4d)
 
 
 ### Wishlist Page
@@ -53,9 +54,9 @@ Welcome to **Compare Craze**, your go-to platform for comparing specifications o
 - Users can view comparisons directly from this page in a modal.
 - Option to close or delete compared items.
   
-![Screenshot (376)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/ac391bd2-945c-4005-8cc6-06c7f93e52ca)# Compare Craze | [Live](https://compare-craze.vercel.app/)
-![Screenshot (377)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/269c2892-3e99-47e0-a312-df7c1a33ed16)
+![Screenshot (376)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/ac391bd2-945c-4005-8cc6-06c7f93e52ca)
 ![Screenshot (376)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/0cb5f9de-fe03-4d2c-92f5-bbee62d24917)
+![Screenshot (377)](https://github.com/PureshwarGonekar/CompareCraze/assets/88015818/269c2892-3e99-47e0-a312-df7c1a33ed16)
 
 
 ### Reviews Page
