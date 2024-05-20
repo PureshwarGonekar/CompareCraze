@@ -121,99 +121,9 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Create section for Who we are */}
-      <section id="who-we-are" className="py-16 bg-white">
-        <div className="container mx-auto">
-          <div className="text-center mb-6">
-            <h1 className="text-3xl font-semibold">Who We Are</h1>
-            <p className="mt-4">
-              At CompareCraze, we're a passionate team dedicated to helping you make informed decisions when it comes to choosing the latest electronic gadgets. With our expertise and commitment to excellence, we strive to provide you with comprehensive comparisons and detailed insights into the world of mobile phones, laptops, TVs, smartwatches, gaming consoles, and smart bands.
-            </p>
-          </div>
-
-          {/* Team members */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 ">
-            {/* Individual team member */}
-            <div className="info">
-              <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Kristin Doe" className="rounded-full w-32 mx-auto" />
-              <div className="text-center mt-4">
-                <h4 className="text-xl font-semibold">Adarsh Gupta</h4>
-                <h5 className="text-gray-600">0201CS201005</h5>
-                {/* Social media links */}
-                <div className="flex justify-center mt-4 space-x-4">
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-twitter"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-facebook"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-linkedin"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-google-plus"></i></a>
-                </div>
-              </div>
-            </div>
-            <div className="info">
-              <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Kristin Doe" className="rounded-full w-32 mx-auto" />
-              <div className="text-center mt-4">
-                <h4 className="text-xl font-semibold">Gaurav Kumar</h4>
-                <h5 className="text-gray-600">0201CS201026</h5>
-                {/* Social media links */}
-                <div className="flex justify-center mt-4 space-x-4">
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-twitter"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-facebook"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-linkedin"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-google-plus"></i></a>
-                </div>
-              </div>
-            </div>
-            <div className="info">
-              <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Kristin Doe" className="rounded-full w-32 mx-auto" />
-              <div className="text-center mt-4">
-                <h4 className="text-xl font-semibold">Naman Nema</h4>
-                <h5 className="text-gray-600">0201CS201043</h5>
-                {/* Social media links */}
-                <div className="flex justify-center mt-4 space-x-4">
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-twitter"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-facebook"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-linkedin"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-google-plus"></i></a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="info">
-              <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Kristin Doe" className="rounded-full w-32 mx-auto" />
-              <div className="text-center mt-4">
-                <h4 className="text-xl font-semibold">Nikhil Bharti</h4>
-                <h5 className="text-gray-600">0201CS201045</h5>
-                {/* Social media links */}
-                <div className="flex justify-center mt-4 space-x-4">
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-twitter"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-facebook"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-linkedin"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-google-plus"></i></a>
-                </div>
-              </div>
-            </div>
-            
-            <div className="info">
-              <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Kristin Doe" className="rounded-full w-32 mx-auto" />
-              <div className="text-center mt-4">
-                <h4 className="text-xl font-semibold">Saurabh Kumar</h4>
-                <h5 className="text-gray-600">0201CS201082</h5>
-                {/* Social media links */}
-                <div className="flex justify-center mt-4 space-x-4">
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-twitter"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-facebook"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-linkedin"></i></a>
-                  <a href="#" className="text-gray-500 hover:text-gray-700"><i className="fab fa-google-plus"></i></a>
-                </div>
-              </div>
-            </div>
-            {/* Repeat this div structure for each team member */}
-          </div>
-        </div>
-      </section>
-
 
       {/* Testimonial Section */}
-      <section id="testimonial" className="py-16 bg-gray-100">
+      <section id="testimonial" className="py-16 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-6">
             <h1 className="text-3xl font-semibold">Testimonials</h1>
@@ -277,7 +187,7 @@ const Home = () => {
       </section>
 
 
-      <section id="best-for-you" className="py-16 ">
+      <section id="best-for-you" className="py-16 bg-gray-100 ">
         <div className="container mx-auto">
           <div className="text-center mb-6">
             <h1 className="text-3xl font-semibold">What's Best For You</h1>
@@ -313,7 +223,7 @@ const Home = () => {
 
 
       {/* Subscribe Section */}
-      <section id="subscribe" className="py-16 bg-gray-100">
+      <section id="subscribe" className="py-16 bg-white">
         <div className="container mx-auto">
           <div className="text-center mb-4">
             <h1 className="text-3xl font-semibold">Newsletter</h1>
@@ -333,7 +243,7 @@ const Home = () => {
 
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 ">
+      <section id="contact" className="py-16 bg-gray-100">
         <div className="container mx-auto">
           <div className="text-center mb-6">
             <h1 className="text-3xl font-semibold">Contact Us</h1>
